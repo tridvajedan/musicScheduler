@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="675.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="675.0" prefWidth="800.0" style="-fx-background-color: #323435;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="updateButton" layoutX="149.0" layoutY="373.0" mnemonicParsing="false" onAction="#update" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: #5b5959; -fx-text-fill: #FFFFFF;" text="Pokreni program!" />
+      <TextField fx:id="sat11" layoutX="14.0" layoutY="72.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut11" editable="true" layoutX="92.0" layoutY="72.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme11" editable="true" layoutX="170.0" layoutY="72.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat12" editable="true" layoutX="14.0" layoutY="108.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut12" editable="true" layoutX="92.0" layoutY="108.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme12" editable="true" layoutX="170.0" layoutY="108.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat13" editable="true" layoutX="14.0" layoutY="146.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut13" editable="true" layoutX="92.0" layoutY="146.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme13" editable="true" layoutX="170.0" layoutY="146.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat14" editable="true" layoutX="14.0" layoutY="182.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut14" editable="true" layoutX="92.0" layoutY="182.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme14" editable="true" layoutX="170.0" layoutY="182.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat15" editable="true" layoutX="14.0" layoutY="218.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut15" editable="true" layoutX="92.0" layoutY="218.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme15" editable="true" layoutX="170.0" layoutY="218.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat16" editable="true" layoutX="14.0" layoutY="252.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut16" editable="true" layoutX="92.0" layoutY="252.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme16" editable="true" layoutX="170.0" layoutY="252.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat21" editable="true" layoutX="516.0" layoutY="72.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut21" editable="true" layoutX="594.0" layoutY="72.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme21" editable="true" layoutX="672.0" layoutY="72.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat22" editable="true" layoutX="516.0" layoutY="108.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut22" editable="true" layoutX="594.0" layoutY="108.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme22" editable="true" layoutX="672.0" layoutY="108.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat23" editable="true" layoutX="516.0" layoutY="146.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut23" editable="true" layoutX="594.0" layoutY="146.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme23" editable="true" layoutX="672.0" layoutY="146.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat24" editable="true" layoutX="516.0" layoutY="182.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut24" editable="true" layoutX="594.0" layoutY="182.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme24" editable="true" layoutX="672.0" layoutY="182.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat25" editable="true" layoutX="516.0" layoutY="218.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut25" editable="true" layoutX="594.0" layoutY="218.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme25" editable="true" layoutX="672.0" layoutY="218.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat26" editable="true" layoutX="516.0" layoutY="252.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut26" editable="true" layoutX="594.0" layoutY="252.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme26" editable="true" layoutX="672.0" layoutY="252.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <Label layoutX="355.0" layoutY="107.0" prefHeight="27.0" prefWidth="90.0" style="-fx-text-fill: #FFFFFF;" text="Drugi čas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="145.0" prefHeight="27.0" prefWidth="90.0" style="-fx-text-fill: #FFFFFF;" text="Treći čas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="181.0" prefHeight="27.0" prefWidth="90.0" style="-fx-text-fill: #FFFFFF;" text="Četvrti čas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="71.0" prefHeight="27.0" prefWidth="90.0" style="-fx-text-fill: #FFFFFF;" text="Prvi čas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="217.0" prefHeight="27.0" prefWidth="90.0" style="-fx-text-fill: #FFFFFF;" text="Peti čas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="251.0" prefHeight="27.0" prefWidth="90.0" style="-fx-text-fill: #FFFFFF;" text="Šesti čas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="663.0" layoutY="350.0" mnemonicParsing="false" onAction="#addSong" prefHeight="25.0" prefWidth="121.0" style="-fx-text-fill: #FFFFFF; -fx-background-color: #5b5959;" text="Dodaj pesmu!" />
+      <Label alignment="CENTER" layoutX="14.0" layoutY="38.0" prefHeight="27.0" prefWidth="70.0" style="-fx-text-fill: #FFFFFF;" text="Sat">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="92.0" layoutY="38.0" prefHeight="27.0" prefWidth="70.0" style="-fx-text-fill: #FFFFFF;" text="Minut">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="170.0" layoutY="38.0" prefHeight="27.0" prefWidth="70.0" style="-fx-text-fill: #FFFFFF;" text="Trajanje">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="516.0" layoutY="38.0" prefHeight="27.0" prefWidth="70.0" style="-fx-text-fill: #FFFFFF;" text="Sat">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="594.0" layoutY="38.0" prefHeight="27.0" prefWidth="70.0" style="-fx-text-fill: #FFFFFF;" text="Minut ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="672.0" layoutY="38.0" prefHeight="27.0" prefWidth="70.0" style="-fx-text-fill: #FFFFFF;" text="Trajanje">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="playlist" layoutX="404.0" layoutY="344.0" prefHeight="258.0" prefWidth="248.0" style="-fx-background-color: #5b5959;" />
+      <Button layoutX="663.0" layoutY="385.0" mnemonicParsing="false" onAction="#removeSong" prefHeight="25.0" prefWidth="121.0" style="-fx-background-color: #5b5959; -fx-text-fill: #FFFFFF;" text="Obriši pesmu!" />
+      <Label fx:id="status" layoutX="149.0" layoutY="402.0" prefHeight="17.0" prefWidth="121.0" style="-fx-text-fill: #FFFFFF;" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#252727" height="200.0" layoutX="-29.0" layoutY="-162.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="858.0" />
+      <Button fx:id="exitButton" layoutX="762.0" layoutY="1.0" mnemonicParsing="false" onAction="#exit" prefHeight="37.0" prefWidth="31.0" style="-fx-background-color: transparent;" />
+      <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="762.0" layoutY="4.0">
+         <image>
+            <Image url="@../../resources/Close.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="updateButton1" layoutX="49.0" layoutY="514.0" mnemonicParsing="false" onAction="#saveConfig" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: #5b5959; -fx-text-fill: #FFFFFF;" text="Sačuvaj konfig!" />
+      <Button layoutX="663.0" layoutY="421.0" mnemonicParsing="false" onAction="#shuffle" prefHeight="25.0" prefWidth="121.0" style="-fx-background-color: #5b5959; -fx-text-fill: #FFFFFF;" text="Randomizuj pesme!" />
+      <Button fx:id="updateButton11" layoutX="240.0" layoutY="514.0" mnemonicParsing="false" onAction="#loadConfig" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: #5b5959; -fx-text-fill: #FFFFFF;" text="Učitaj konfig!" />
+      <ImageView layoutX="726.0" layoutY="4.0">
+         <image>
+            <Image url="@../../resources/minimize.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="minimizeButton" layoutX="730.0" layoutY="1.0" mnemonicParsing="false" onAction="#minimize" prefHeight="37.0" prefWidth="25.0" style="-fx-background-color: transparent;" text="Button" />
+      <Button layoutX="663.0" layoutY="454.0" mnemonicParsing="false" onAction="#setSong" prefHeight="25.0" prefWidth="121.0" style="-fx-background-color: #5b5959; -fx-text-fill: #FFFFFF;" text="Izaberi pesmu!" />
+      <Label fx:id="nowSong" layoutX="404.0" layoutY="602.0" style="-fx-text-fill: #FFFFFF;" text="Trenutno:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sat17" editable="true" layoutX="14.0" layoutY="285.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut17" editable="true" layoutX="92.0" layoutY="285.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme17" editable="true" layoutX="170.0" layoutY="285.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="sat27" editable="true" layoutX="516.0" layoutY="285.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="minut27" editable="true" layoutX="594.0" layoutY="285.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <TextField fx:id="vreme27" editable="true" layoutX="672.0" layoutY="285.0" prefHeight="25.0" prefWidth="70.0" style="-fx-background-color: #5b5959;" />
+      <Label layoutX="355.0" layoutY="284.0" prefHeight="27.0" prefWidth="90.0" style="-fx-text-fill: #FFFFFF;" text="Sedmi čas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
